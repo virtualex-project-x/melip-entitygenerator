@@ -1,0 +1,2 @@
+  /** ${fieldLogicalName}のフィールド名 */
+  public static final String FIELD_${fieldPhysicalName} = "${fieldCamelCase}";

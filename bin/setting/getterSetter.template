@@ -1,0 +1,18 @@
+  /**
+   * ${fieldLogicalName}を取得します。
+   * 
+   * @return ${fieldLogicalName}
+   */
+  public ${fieldType} get${fieldPascalCase}() {
+    return ${fieldCamelCase};
+  }
+
+  /**
+   * ${fieldLogicalName}を設定します。
+   * 
+   * @param ${fieldCamelCase} ${fieldLogicalName}
+   */
+  public void set${fieldPascalCase}(${fieldType} ${fieldCamelCase}) {
+    this.${fieldCamelCase} = ${fieldCamelCase};
+  }
+

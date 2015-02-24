@@ -1,0 +1,11 @@
+package ${packageName};
+
+/**
+ * ${entityLogicalName}のエンティティクラスです。
+ */
+public class ${className} extends ${parentClassName} {
+
+${constantsDefinition}
+${fieldDefinition}
+${getterSetterDefinition}
+}

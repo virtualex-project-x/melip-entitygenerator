@@ -267,7 +267,7 @@ public class MelipEntityGenerator {
       // Excelの状態が不正だった場合は、DomainCreator、EntityCreatorからIllegalStateExceptionが投げられる
       return false;
     } catch (InvalidFormatException e) {
-      log.error("テーブル定義書[" + getExcelFile().getPath() + "]は不正な無効なフォーマットです。");
+      log.error("テーブル定義書[" + getExcelFile().getPath() + "]は無効なフォーマットです。");
       throw e;
     } catch (IOException e) {
       log.error("テーブル定義書[" + getExcelFile().getPath() + "]の処理中に入出力エラーが発生しました。");
